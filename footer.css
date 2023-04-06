@@ -1,0 +1,98 @@
+/* footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 30px;
+    color: #fff;
+}
+.footer-prekoly{
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-prekoly h3{
+    background-color: #111;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-prekoly p{
+    background-color: #111;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 13px;
+}
+.footer-bottom{
+    background: #111;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    background-color: #111;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+} */
+
+.authors{
+    background-color: rgb(0, 0, 0);
+}
+.p{
+    text-align: left;
+    margin-top: 1.5rem;
+    margin-left: 3%;
+    font-size: 1.8rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contacts{
+    margin-left: 70%;
+    margin-top: -6rem;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+.number{
+    margin-left: 70%;
+    margin-top: 1.5rem;
+    text-align: left;
+    color: rgba(204, 204, 204, 0.6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    font-size: 0.7rem;
+}
+.p1{
+    text-align: left;
+    margin-top: 1.5rem;
+    margin-left: 3%;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p2{
+    text-align: left;
+    margin-top: 1.5rem;
+    margin-left: 3%;
+    font-size: 0.8rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p3{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    /* background-color: black; */
+    text-align: left    ;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.484);
+}

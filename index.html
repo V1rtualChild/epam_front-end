@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epam - Front-End</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="input.css">
+    <link class="icon" rel="SHORTCUT ICON" href="EPAM-logo.png">    
+</head>
+<body>
+    <header class="header">
+        <nav>
+        <ul class="spysok">
+            <li><a href="https://www.epam.com/about">ABOUT US</a></li>
+            <li><a href="#footer-info">CONTACT</a></li>
+            <li>SUPPORT</li>
+        </ul>
+        </nav>
+    </header>
+
+    <!-- <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__top">
+                <div class="company__info">
+                    <h2 class="company__logo">Epam</h2>
+                    <p class="coompany__descriptions">...</p>
+                    <ul class="footer__lisy">
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">
+                                <i class="ri-facebook-circle-line"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <span class="copyright">...</span>
+                </div>
+                <div>
+                    <h6 class="footer__title">Epam Store</h6>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">...</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+<section class="main-page">
+    <!-- <div class="epam-info">
+        <p>Компанія епам</p>
+    </div> -->
+    <div class="register">
+    <form class="decor">
+        <div class="form-left-decoration"></div>
+        <div class="form-right-decoration"></div>
+        <div class="circle"></div>
+        <div class="form-inner">
+        <h3>Записатися на пробний курс <br> Front-end</h3>
+        <input id="name" type="text" placeholder="Ваше Ім'я" required>
+        <input type="email" placeholder="Електронна пошта" required>
+        <textarea placeholder="Запитання пишіть сюди" rows="3"></textarea>
+        <!-- <input type="submit" value="Відправити"> -->
+        <button onclick="myFunction()" id="btn-1" class="btn">Записатися</button>
+        </div>
+        </form>
+    </div>
+</section>
+<section id="footer-info" class="footer">
+    <div class="authors">
+        <br>
+        <div class="firs-text">
+            <p class="p">EPAM</p>
+            <p class="p1">Website created by:</p>
+            <p class="p2">Danylo Hrabar, Ostap Diduh, Viktoria Kondratska, Yana Mykhaylova and Maksym Bilyi.</p>
+            <p class="contacts">Contacts</p>
+            <p class="number">+38000000</p>
+            <p class="number">+38067000</p>
+        </div>
+        
+        
+        
+        <p class="p3">©2023 Fep-11,12,13</p>
+        <br>
+    </div>
+</section>
+
+    <!-- <footer>
+        <div class="footer-prekoly">
+          <h3>Website created by:</h3>
+          <p>
+            Danylo Hrabar, Ostap Diduh, Viktoria Kondratska, Yana Mykhaylova and Maksym Bilyi.
+          </p>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy;2023 Fep-11,12,13</p>
+        </div>
+      </footer> -->
+
+    <script>
+        // function myFunction(){
+        //     alert("Вашу заявку відправлено!")
+        // }
+        function myFunction() {
+    var str = document.getElementById("name").value;
+    var re = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
+   }
+   function myFunction(str){
+    return (str == null) || (str.length == 0);
+   }
+    </script>
+</body>
+</html>

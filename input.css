@@ -1,0 +1,111 @@
+
+ .decor {
+    position: relative;
+    max-width: 380px;
+    float: right;
+    margin-top: 4rem;
+    margin-right: 5rem;
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+ }
+ .form-left-decoration, .form-right-decoration {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background: rgb(88, 164, 225);
+    border-radius: 20px;
+ }
+ .form-left-decoration {
+    bottom: 60px;
+    left: -30px;
+ }
+ .form-right-decoration {
+    top: 60px;
+    right: -30px;
+ }
+ .form-left-decoration:before, .form-left-decoration:after, .form-right-decoration:before, .form-right-decoration:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 30px;
+    background: white;
+ }
+ .form-left-decoration:before {
+    top: -20px;
+ }
+ .form-left-decoration:after {
+    top: 20px;
+    left: 10px;
+ }
+ .form-right-decoration:before {
+    top: -20px;
+    right: 0;
+ }
+ .form-right-decoration:after {
+    top: 20px;
+    right: 10px;
+ }
+ .circle {
+    position: absolute;
+    bottom: 80px;
+    left: -55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+ }
+ .form-inner {
+    padding: 50px;
+ }
+ .form-inner input, .form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 13px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+ }
+ .form-inner input[type="submit"] {
+    margin-top: 30px;
+    background: #f69a73;
+    border-bottom: 4px solid #d87d56;
+    color: white;
+    font-size: 14px;
+ }
+ .form-inner textarea {
+    resize: none;
+ }
+ .form-inner h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #707981;
+ }
+
+ .form-inner button{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+ }
+ .btn{
+    color: hsl(208, 7%, 47%);
+    padding: 5px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    background-color: #E9EFF6;
+}
+.btn:hover{
+    background-color: rgb(106, 171, 198);
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
